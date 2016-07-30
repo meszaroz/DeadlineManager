@@ -16,6 +16,7 @@
 		2163407F1D4CA3FD00E298C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2163407D1D4CA3FD00E298C0 /* LaunchScreen.storyboard */; };
 		2163408A1D4CA3FD00E298C0 /* DeadlineManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340891D4CA3FD00E298C0 /* DeadlineManagerTests.m */; };
 		216340951D4CA3FD00E298C0 /* DeadlineManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340941D4CA3FD00E298C0 /* DeadlineManagerUITests.m */; };
+		21B6C5D01D4CAA57003288E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B6C5CF1D4CAA57003288E3 /* GoogleService-Info.plist */; };
 		2EE7C0B4FFA9A37BB8E2ACE2 /* libPods-DeadlineManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF26A585286FDFC9F30427 /* libPods-DeadlineManager.a */; };
 		49D988E317F66E23C80AB66F /* libPods-DeadlineManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13991612F51887638D0C8F /* libPods-DeadlineManagerTests.a */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		216340901D4CA3FD00E298C0 /* DeadlineManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadlineManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216340941D4CA3FD00E298C0 /* DeadlineManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadlineManagerUITests.m; sourceTree = "<group>"; };
 		216340961D4CA3FD00E298C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B6C5CF1D4CAA57003288E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29FDA83F8642C16BE9819555 /* Pods-DeadlineManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManager/Pods-DeadlineManager.debug.xcconfig"; sourceTree = "<group>"; };
 		5499F123B2F3AEA0DBCC28E6 /* Pods-DeadlineManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerTests/Pods-DeadlineManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C45822D26FD2A1FD54EDB3B /* Pods-DeadlineManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerUITests/Pods-DeadlineManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				2163407B1D4CA3FD00E298C0 /* Assets.xcassets */,
 				2163407D1D4CA3FD00E298C0 /* LaunchScreen.storyboard */,
 				216340801D4CA3FD00E298C0 /* Info.plist */,
+				21B6C5CF1D4CAA57003288E3 /* GoogleService-Info.plist */,
 				2163406F1D4CA3FD00E298C0 /* Supporting Files */,
 			);
 			path = DeadlineManager;
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2163407F1D4CA3FD00E298C0 /* LaunchScreen.storyboard in Resources */,
+				21B6C5D01D4CAA57003288E3 /* GoogleService-Info.plist in Resources */,
 				2163407C1D4CA3FD00E298C0 /* Assets.xcassets in Resources */,
 				2163407A1D4CA3FD00E298C0 /* Main.storyboard in Resources */,
 			);
