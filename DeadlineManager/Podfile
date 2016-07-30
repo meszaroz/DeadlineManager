@@ -10,6 +10,7 @@ target 'DeadlineManager' do
   pod 'Firebase/Storage'
   pod 'Firebase/Database'
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
 
   target 'DeadlineManagerTests' do
     inherit! :search_paths
