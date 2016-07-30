@@ -130,16 +130,15 @@
 		2163406E1D4CA3FC00E298C0 /* DeadlineManager */ = {
 			isa = PBXGroup;
 			children = (
+				2163407D1D4CA3FD00E298C0 /* LaunchScreen.storyboard */,
 				216340721D4CA3FD00E298C0 /* AppDelegate.h */,
 				216340731D4CA3FD00E298C0 /* AppDelegate.m */,
-				216340751D4CA3FD00E298C0 /* ViewController.h */,
-				216340761D4CA3FD00E298C0 /* ViewController.m */,
-				216340781D4CA3FD00E298C0 /* Main.storyboard */,
-				2163407B1D4CA3FD00E298C0 /* Assets.xcassets */,
-				2163407D1D4CA3FD00E298C0 /* LaunchScreen.storyboard */,
+				21B6C5D11D4CD18E003288E3 /* Assets */,
+				21B6C5D21D4CD1BF003288E3 /* User Interface */,
+				21B6C5D31D4CD1F1003288E3 /* Common */,
+				2163406F1D4CA3FD00E298C0 /* Supporting Files */,
 				216340801D4CA3FD00E298C0 /* Info.plist */,
 				21B6C5CF1D4CAA57003288E3 /* GoogleService-Info.plist */,
-				2163406F1D4CA3FD00E298C0 /* Supporting Files */,
 			);
 			path = DeadlineManager;
 			sourceTree = "<group>";
@@ -168,6 +167,31 @@
 				216340961D4CA3FD00E298C0 /* Info.plist */,
 			);
 			path = DeadlineManagerUITests;
+			sourceTree = "<group>";
+		};
+		21B6C5D11D4CD18E003288E3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2163407B1D4CA3FD00E298C0 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		21B6C5D21D4CD1BF003288E3 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				216340751D4CA3FD00E298C0 /* ViewController.h */,
+				216340761D4CA3FD00E298C0 /* ViewController.m */,
+				216340781D4CA3FD00E298C0 /* Main.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		21B6C5D31D4CD1F1003288E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 		254F7B72D3FF2B0CF75645B5 /* Pods */ = {
