@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E62548CC52BFD4B497D338B /* libPods-DeadlineManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6147B04304AB155F3B0C3B30 /* libPods-DeadlineManagerUITests.a */; };
 		216340711D4CA3FD00E298C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340701D4CA3FD00E298C0 /* main.m */; };
 		216340741D4CA3FD00E298C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340731D4CA3FD00E298C0 /* AppDelegate.m */; };
 		216340771D4CA3FD00E298C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340761D4CA3FD00E298C0 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		2163407F1D4CA3FD00E298C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2163407D1D4CA3FD00E298C0 /* LaunchScreen.storyboard */; };
 		2163408A1D4CA3FD00E298C0 /* DeadlineManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340891D4CA3FD00E298C0 /* DeadlineManagerTests.m */; };
 		216340951D4CA3FD00E298C0 /* DeadlineManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216340941D4CA3FD00E298C0 /* DeadlineManagerUITests.m */; };
+		2EE7C0B4FFA9A37BB8E2ACE2 /* libPods-DeadlineManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FF26A585286FDFC9F30427 /* libPods-DeadlineManager.a */; };
+		49D988E317F66E23C80AB66F /* libPods-DeadlineManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13991612F51887638D0C8F /* libPods-DeadlineManagerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F66D15891DEF54D60A813FF /* Pods-DeadlineManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManager/Pods-DeadlineManager.release.xcconfig"; sourceTree = "<group>"; };
 		2163406C1D4CA3FC00E298C0 /* DeadlineManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadlineManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216340701D4CA3FD00E298C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		216340721D4CA3FD00E298C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		216340901D4CA3FD00E298C0 /* DeadlineManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadlineManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216340941D4CA3FD00E298C0 /* DeadlineManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadlineManagerUITests.m; sourceTree = "<group>"; };
 		216340961D4CA3FD00E298C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FDA83F8642C16BE9819555 /* Pods-DeadlineManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManager/Pods-DeadlineManager.debug.xcconfig"; sourceTree = "<group>"; };
+		5499F123B2F3AEA0DBCC28E6 /* Pods-DeadlineManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerTests/Pods-DeadlineManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C45822D26FD2A1FD54EDB3B /* Pods-DeadlineManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerUITests/Pods-DeadlineManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6147B04304AB155F3B0C3B30 /* libPods-DeadlineManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeadlineManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C13991612F51887638D0C8F /* libPods-DeadlineManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeadlineManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD01EF0803B5F1E393597E7 /* Pods-DeadlineManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerTests/Pods-DeadlineManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C91E3862E07E1EF05F4FFC3B /* Pods-DeadlineManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeadlineManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeadlineManagerUITests/Pods-DeadlineManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FF26A585286FDFC9F30427 /* libPods-DeadlineManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeadlineManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE7C0B4FFA9A37BB8E2ACE2 /* libPods-DeadlineManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D988E317F66E23C80AB66F /* libPods-DeadlineManagerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E62548CC52BFD4B497D338B /* libPods-DeadlineManagerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12DFF8380E52A676813A69DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7FF26A585286FDFC9F30427 /* libPods-DeadlineManager.a */,
+				6C13991612F51887638D0C8F /* libPods-DeadlineManagerTests.a */,
+				6147B04304AB155F3B0C3B30 /* libPods-DeadlineManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		216340631D4CA3FC00E298C0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				216340881D4CA3FD00E298C0 /* DeadlineManagerTests */,
 				216340931D4CA3FD00E298C0 /* DeadlineManagerUITests */,
 				2163406D1D4CA3FC00E298C0 /* Products */,
+				254F7B72D3FF2B0CF75645B5 /* Pods */,
+				12DFF8380E52A676813A69DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = DeadlineManagerUITests;
 			sourceTree = "<group>";
 		};
+		254F7B72D3FF2B0CF75645B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FDA83F8642C16BE9819555 /* Pods-DeadlineManager.debug.xcconfig */,
+				0F66D15891DEF54D60A813FF /* Pods-DeadlineManager.release.xcconfig */,
+				8FD01EF0803B5F1E393597E7 /* Pods-DeadlineManagerTests.debug.xcconfig */,
+				5499F123B2F3AEA0DBCC28E6 /* Pods-DeadlineManagerTests.release.xcconfig */,
+				C91E3862E07E1EF05F4FFC3B /* Pods-DeadlineManagerUITests.debug.xcconfig */,
+				5C45822D26FD2A1FD54EDB3B /* Pods-DeadlineManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216340991D4CA3FD00E298C0 /* Build configuration list for PBXNativeTarget "DeadlineManager" */;
 			buildPhases = (
+				D8500C6EF63FD449168ACFAE /* 📦 Check Pods Manifest.lock */,
 				216340681D4CA3FC00E298C0 /* Sources */,
 				216340691D4CA3FC00E298C0 /* Frameworks */,
 				2163406A1D4CA3FC00E298C0 /* Resources */,
+				2DA122CD375A023EC38BABB8 /* 📦 Embed Pods Frameworks */,
+				0BDB1C4DDB8AFFAFDDB4FD7E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2163409C1D4CA3FD00E298C0 /* Build configuration list for PBXNativeTarget "DeadlineManagerTests" */;
 			buildPhases = (
+				56A21187A5499E31A6717F1C /* 📦 Check Pods Manifest.lock */,
 				216340811D4CA3FD00E298C0 /* Sources */,
 				216340821D4CA3FD00E298C0 /* Frameworks */,
 				216340831D4CA3FD00E298C0 /* Resources */,
+				44A1A9F93D91121172E7AE81 /* 📦 Embed Pods Frameworks */,
+				3DBEF6BB8AB840D2130E8A24 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2163409F1D4CA3FD00E298C0 /* Build configuration list for PBXNativeTarget "DeadlineManagerUITests" */;
 			buildPhases = (
+				992EDB3F96DA7CA7C90EB99F /* 📦 Check Pods Manifest.lock */,
 				2163408C1D4CA3FD00E298C0 /* Sources */,
 				2163408D1D4CA3FD00E298C0 /* Frameworks */,
 				2163408E1D4CA3FD00E298C0 /* Resources */,
+				14CC565AC78818B70861F34B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +313,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDB1C4DDB8AFFAFDDB4FD7E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadlineManager/Pods-DeadlineManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14CC565AC78818B70861F34B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadlineManagerUITests/Pods-DeadlineManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA122CD375A023EC38BABB8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadlineManager/Pods-DeadlineManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBEF6BB8AB840D2130E8A24 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadlineManagerTests/Pods-DeadlineManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A1A9F93D91121172E7AE81 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeadlineManagerTests/Pods-DeadlineManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A21187A5499E31A6717F1C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		992EDB3F96DA7CA7C90EB99F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8500C6EF63FD449168ACFAE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		216340681D4CA3FC00E298C0 /* Sources */ = {
@@ -414,30 +585,33 @@
 		};
 		2163409A1D4CA3FD00E298C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FDA83F8642C16BE9819555 /* Pods-DeadlineManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DeadlineManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meszaroz.DeadlineManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meszaroz.deadline-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		2163409B1D4CA3FD00E298C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F66D15891DEF54D60A813FF /* Pods-DeadlineManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DeadlineManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.meszaroz.DeadlineManager;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meszaroz.deadline-manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		2163409D1D4CA3FD00E298C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD01EF0803B5F1E393597E7 /* Pods-DeadlineManagerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DeadlineManagerTests/Info.plist;
@@ -450,6 +624,7 @@
 		};
 		2163409E1D4CA3FD00E298C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5499F123B2F3AEA0DBCC28E6 /* Pods-DeadlineManagerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DeadlineManagerTests/Info.plist;
@@ -462,6 +637,7 @@
 		};
 		216340A01D4CA3FD00E298C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91E3862E07E1EF05F4FFC3B /* Pods-DeadlineManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DeadlineManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,6 +649,7 @@
 		};
 		216340A11D4CA3FD00E298C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C45822D26FD2A1FD54EDB3B /* Pods-DeadlineManagerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DeadlineManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +678,7 @@
 				2163409B1D4CA3FD00E298C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2163409C1D4CA3FD00E298C0 /* Build configuration list for PBXNativeTarget "DeadlineManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +687,7 @@
 				2163409E1D4CA3FD00E298C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2163409F1D4CA3FD00E298C0 /* Build configuration list for PBXNativeTarget "DeadlineManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +696,7 @@
 				216340A11D4CA3FD00E298C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
